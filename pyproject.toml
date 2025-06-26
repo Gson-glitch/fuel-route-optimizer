@@ -1,0 +1,24 @@
+[project]
+name = "fuel-route-optimizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django==3.2.23",
+    "djangorestframework>=3.15.1",
+    "geopy>=2.4.1",
+    "openrouteservice>=2.3.3",
+    "pandas>=2.3.0",
+    "python-decouple>=3.8",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+test = [
+    "givenpy>=1.0.4",
+    "lark>=1.2.2",
+    "pyhamcrest>=2.1.0",
+    "pytest>=8.4.1",
+    "pyyaml>=6.0.2",
+]
