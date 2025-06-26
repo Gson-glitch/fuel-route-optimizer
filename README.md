@@ -124,6 +124,10 @@ Content-Type: application/json
 - Requires superuser account
 
 ### Running Tests (Optional)
+**Install Test Dependencies**
+```bash
+uv sync --group test
+```
 ```bash
 python manage.py test fuel_optimizer.tests
 ```
